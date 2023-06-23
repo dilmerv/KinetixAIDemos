@@ -1,6 +1,5 @@
 using Kinetix;
 using Kinetix.UI;
-using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -46,6 +45,11 @@ public class CharacterSelector : MonoBehaviour
                 {
                     Logger.Instance.LogInfo($"Asigning animator to {objectHit.name}");
                     character.Light.gameObject.SetActive(true);
+
+                    //The UnregisterLocalPlayer keeps creating multiple game objects which is not good
+                    //I tried to call UnregisterLocalPlayer to delete the previous object but it generates
+                    //exceptions saying that a glb is used by another process so for now is commented
+                    //KinetixCore.Animation.UnregisterLocalPlayer();
                     KinetixCore.Animation.RegisterLocalPlayerAnimator(character.Animator);
                 }
             }
