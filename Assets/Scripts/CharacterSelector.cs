@@ -1,3 +1,6 @@
+using Kinetix;
+using Kinetix.UI;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -30,7 +33,7 @@ public class CharacterSelector : MonoBehaviour
         click.performed += ctx => {
             RaycastHit hit;
             Vector3 coor = Mouse.current.position.ReadValue();
-            if (Physics.Raycast(defaultCamera.ScreenPointToRay(coor), out hit))
+            if (Physics.Raycast(defaultCamera.ScreenPointToRay(coor), out hit) && !KinetixUI.IsShown)
             {
                 Transform objectHit = hit.transform;
                 Logger.Instance.LogInfo($"Object selected: {objectHit.name}");
@@ -39,10 +42,11 @@ public class CharacterSelector : MonoBehaviour
                 LightsOff();
 
                 Character character = objectHit.GetComponent<Character>();
-                if(character.Animator != null)
+                if(character?.Animator != null)
                 {
                     Logger.Instance.LogInfo($"Asigning animator to {objectHit.name}");
                     character.Light.gameObject.SetActive(true);
+                    KinetixCore.Animation.RegisterLocalPlayerAnimator(character.Animator);
                 }
             }
         };

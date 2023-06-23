@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18d48b7e88814668bb4ff3d4b3f7248, type: 3}
+  m_Name: Custom Kinetix Input SO
+  m_EditorClassIdentifier: 
+  kinetixActionMap:
+    m_Name: Custom
+    m_Id: 6eb8ca98-0c11-4b90-ae2c-5870b3b8d59d
+    m_Asset: {fileID: 0}
+    m_Actions:
+    - m_Name: Navigation
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 74a41cdc-2d13-482c-94c8-60d97748ff02
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MouseOrTouchMove
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: e7219714-987e-4f28-8302-e1633877e514
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Press
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 85c4b57b-949a-4feb-be14-f0efd1619647
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Select
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 0a6562c7-0dd8-4a41-8aee-8d7c5dfb8fac
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Cancel
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: b6c538aa-abc4-413c-a408-a1204163e2da
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: PrevPage
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 36a84f28-92c5-462f-bbd5-0340595680a3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: NextPage
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: d53f3abe-bb84-40e2-b9c6-a79cccfcb6d3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: NextTab
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: b41367f5-4f63-443f-8306-5856cb5b4363
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: PrevTab
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 355e06a3-271d-4fc2-b7dc-7082d64cd9ca
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: DeleteMode
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: d07f2a0f-ec1b-4377-a740-6c19bdf1fe63
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name: 
+      m_Id: 84580024-29a2-4095-860d-30a5f83a9e32
+      m_Path: <Gamepad>/leftStick
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Navigation
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 0e546a03-4c42-4b40-bdfd-2ce2555b1232
+      m_Path: <Gamepad>/rightStick
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Navigation
+      m_Flags: 0
+    - m_Name: 2D Vector
+      m_Id: ba85f2c4-0406-4d5b-953d-ba6ab1ff647e
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Navigation
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 388dba2e-724b-4f7e-8cc7-872c79b8799c
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard&Mouse
+      m_Action: Navigation
+      m_Flags: 8
+    - m_Name: down
+      m_Id: a1219286-78de-4dae-bf9e-e6c036c37540
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard&Mouse
+      m_Action: Navigation
+      m_Flags: 8
+    - m_Name: left
+      m_Id: e41eca1a-18d8-46a3-b177-02ac51493d32
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard&Mouse
+      m_Action: Navigation
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 5ccea947-c01f-4283-80b3-be11622a84c0
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard&Mouse
+      m_Action: Navigation
+      m_Flags: 8
+    - m_Name: 
+      m_Id: 42155cff-256f-4908-bece-b889a3241d48
+      m_Path: <Keyboard>/l
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: PrevPage
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 2f9fb198-7ca5-4d98-92cf-95f297d573ca
+      m_Path: <Keyboard>/q
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: PrevPage
+      m_Flags: 0
+    - m_Name: 
+      m_Id: f09d1aa8-6be6-4906-ac62-c1d2c47bce60
+      m_Path: <Gamepad>/leftShoulder
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: PrevPage
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 00dbeef0-e715-4415-b401-a9704e898366
+      m_Path: <Keyboard>/semicolon
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: NextPage
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 120eefc2-af99-4f86-bc55-bcde0b66fe16
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: NextPage
+      m_Flags: 0
+    - m_Name: 
+      m_Id: ac6796cc-6128-42d9-9a81-4aeb0d9554af
+      m_Path: <Gamepad>/rightShoulder
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: NextPage
+      m_Flags: 0
+    - m_Name: 
+      m_Id: df7269cd-ea20-4423-97ba-7185f02e1647
+      m_Path: <Mouse>/position
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MouseOrTouchMove
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 2ecaa2e5-9536-4bd9-823a-56264da2268b
+      m_Path: <Touchscreen>/position
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MouseOrTouchMove
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 319163b9-ec47-4b9f-bb98-62eba4815e13
+      m_Path: <Touchscreen>/Press
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Touch
+      m_Action: Press
+      m_Flags: 0
+    - m_Name: 
+      m_Id: aee282e2-dba8-49db-bcda-8bea22eabb7c
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard&Mouse
+      m_Action: Press
+      m_Flags: 0
+    - m_Name: 
+      m_Id: f0300ce6-32ce-42bb-bfb4-9cb1608ba514
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard&Mouse
+      m_Action: Select
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 3db154d8-f351-4ff8-a972-419ff5cddc8c
+      m_Path: <Gamepad>/buttonSouth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Select
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 527aab9b-62fd-4ce8-8f74-74cf671ebc47
+      m_Path: <Keyboard>/c
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard&Mouse
+      m_Action: Cancel
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 90bd3dfe-0c55-470c-9b51-e6a85328fcdd
+      m_Path: <Gamepad>/buttonEast
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Cancel
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 4b1580c1-8963-405c-b708-436cb494cc1c
+      m_Path: <Keyboard>/p
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard&Mouse
+      m_Action: NextTab
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 16b118d2-588e-42dd-ae34-42df378eeb1b
+      m_Path: <Gamepad>/rightTrigger
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: NextTab
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 71cce3c0-d0be-4dfd-bfe4-7223c7c41044
+      m_Path: <Keyboard>/o
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: PrevTab
+      m_Flags: 0
+    - m_Name: 
+      m_Id: b7bc78d8-652f-4532-a3c9-0fe620c34fa2
+      m_Path: <Gamepad>/leftTrigger
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: 
+      m_Action: PrevTab
+      m_Flags: 0
+    - m_Name: 
+      m_Id: d734c398-e9bd-440c-aeb4-0170b6e0e1ac
+      m_Path: <Gamepad>/buttonNorth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: DeleteMode
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 1ffce1a5-7d06-45eb-8c96-0165b3e00052
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: DeleteMode
+      m_Flags: 0

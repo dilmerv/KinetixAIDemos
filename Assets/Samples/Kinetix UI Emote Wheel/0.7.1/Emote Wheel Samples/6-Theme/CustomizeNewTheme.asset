@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb34b4b5a66b4281a4f0e8a9de89ede, type: 3}
+  m_Name: CustomizeNewTheme
+  m_EditorClassIdentifier: 
+  customSprites:
+  - Tag: 0
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 3bde888f87aaa415db324ec0fb873ba5, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 1
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 004b0e4b8b55b448eb6778d78f994614, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 2
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 3cc571e509e1b450f98f23fa14bf098e, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 1, b: 0.15811038, a: 1}
+  - Tag: 3
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: ef327a6ccc3f544bfb896892bf2fa8de, type: 3}
+    EnableCustomColor: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - Tag: 4
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 64e5713649630410397ac2f87b9e0b41, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 5
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 7db655fdec6114f68a05894983362f37, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 6
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 6c67f12e8569e4aac9f2c6e5d5d04b62, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 7
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: b21b891bf589e4e0bb37df061853e7a9, type: 3}
+    EnableCustomColor: 0
+    color: {r: 1, g: 1, b: 1, a: 0.47843137}
+  - Tag: 8
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: c4b1610ea26dc4f29a6e2bbca97aed24, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - Tag: 9
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 966f44b8cdcda4955ab4979cd8cb7558, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 10
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: a61449eb266f14c82adf2905aa98c94a, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 11
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 48c37aea13fa84254a731c5b314e7754, type: 3}
+    EnableCustomColor: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - Tag: 12
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: e6e4ae7666ef5464eb823f0cbe46c931, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 13
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 5ae90e23154494d34a3af3a7ea679d1c, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 14
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 56e75428671174076a2e48577f011fa0, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 15
+    EnableCustomSprite: 0
+    sprite: {fileID: 0}
+    EnableCustomColor: 1
+    color: {r: 0.21176471, g: 0.6901961, b: 1, a: 1}
+  - Tag: 16
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 267f64450772043939730944eb204631, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 17
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 2afad14af2ed14e09bfcd5eb6ddc145b, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 18
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 6825cc1e554ef402eb11424ac7e67edb, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 19
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 745f31393d7c54071859d11b5a8a6510, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 20
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 4d58c8ff6f46b4b298e61b8f48d06260, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 21
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 242497c810bc54ca680654f2772fc3ed, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 22
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: e07161fe9828442bdb72b635a21cd7a8, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 23
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: ebb9e3ad17bd74022b166b72f926aeb5, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 24
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: e634210779d2d4f01b2e192a8082ff6a, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 25
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 57c40709461f74496b6a3bdfddec4621, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 26
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 407d668c7e3194160ab0875dac675a51, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 27
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 31d5c5d41b23a41b2a5e32f8f890e215, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 28
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 877e2187a4720495c93f74a99f9afd58, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 29
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 1f29a059537be4fe383d050807aa0374, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - Tag: 30
+    EnableCustomSprite: 1
+    sprite: {fileID: 21300000, guid: 60c42575488d64b8bb9d0950b7547bc3, type: 3}
+    EnableCustomColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  customFonts:
+  - Tag: 0
+    EnableCustomFont: 1
+    font: {fileID: 11400000, guid: 5536c4a1bf3ab4676ae34cc3d4bbeaec, type: 2}
+  - Tag: 1
+    EnableCustomFont: 1
+    font: {fileID: 11400000, guid: c21ade7279e4348af871579d4e04c2c1, type: 2}
+  customColors:
+  - Tag: 0
+    EnableCustomColor: 1
+    color: {r: 0.21226418, g: 0.6904896, b: 1, a: 1}
+  - Tag: 1
+    EnableCustomColor: 1
+    color: {r: 0.21173374, g: 0.20784312, b: 1, a: 1}

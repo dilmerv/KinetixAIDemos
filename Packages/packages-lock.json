@@ -1,5 +1,43 @@
 {
   "dependencies": {
+    "com.kinetix.coreweb2": {
+      "version": "https://github.com/git-kinetix/kinetix-unity-sdk-coreweb2.git#v0.7.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "3f59e17c363499c6746b69ed2883a8ea7c42d780"
+    },
+    "com.kinetix.packagemanager": {
+      "version": "https://github.com/git-kinetix/kinetix-unity-sdk-packagemanager.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2a4e3c4fb8aa45e9a1b4c23c5f7be7c63ec09b04"
+    },
+    "com.kinetix.uicommon": {
+      "version": "https://github.com/git-kinetix/kinetix-unity-sdk-uicommon.git#v0.7.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "57b805f4d36abf713069eb4f45d4e28d68ebf543"
+    },
+    "com.kinetix.uiemotewheel": {
+      "version": "https://github.com/git-kinetix/kinetix-unity-sdk-uiemotewheel.git#v0.7.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "995f5e79913f1563792c159db0fab859c7f84009"
+    },
+    "com.unity.animation.rigging": {
+      "version": "1.2.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.test-framework": "1.1.24"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.burst": {
       "version": "1.8.4",
       "depth": 1,
@@ -58,7 +96,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.5.1",
+      "version": "1.6.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -69,6 +107,13 @@
     "com.unity.mathematics": {
       "version": "1.2.6",
       "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
