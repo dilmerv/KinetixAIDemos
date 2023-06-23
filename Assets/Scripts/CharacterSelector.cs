@@ -29,21 +29,24 @@ public class CharacterSelector : MonoBehaviour
     void Start()
     {
         click = new InputAction(binding: "<Mouse>/leftButton");
-        click.performed += ctx => {
+        click.performed += callBack =>
+        {
             RaycastHit hit;
-            Vector3 coor = Mouse.current.position.ReadValue();
-            if (Physics.Raycast(defaultCamera.ScreenPointToRay(coor), out hit) && !KinetixUI.IsShown)
+            Vector3 mousePosition = Mouse.current.position.ReadValue();
+            if (Physics.Raycast(defaultCamera.ScreenPointToRay(mousePosition), out hit) && !KinetixUI.IsShown)
             {
                 Transform objectHit = hit.transform;
                 Logger.Instance.LogInfo($"Object selected: {objectHit.name}");
 
-                // all lights off
-                LightsOff();
-
                 Character character = objectHit.GetComponent<Character>();
                 if(character?.Animator != null)
                 {
+                    // all lights off
+                    LightsOff();
+
                     Logger.Instance.LogInfo($"Asigning animator to {objectHit.name}");
+
+                    // turn light on for this character
                     character.Light.gameObject.SetActive(true);
 
                     //The UnregisterLocalPlayer keeps creating multiple game objects which is not good
